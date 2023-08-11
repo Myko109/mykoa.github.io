@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 50px ;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    color:white;
+
+}
+.navbar {
+    margin-top: -20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+nav ul li {
+    list-style: none;
+   
+}
+nav ul li a {
+    text-decoration: none;
+    color:white;
+
+}
+.Language {
+    margin-left: auto;
+}
+#home {
+    background: url(./assets/pralon.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-home {
+  padding-left: 200px;
+  padding-top: 200px;
+  color: white;
+}
+
+.subtittle-home {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
